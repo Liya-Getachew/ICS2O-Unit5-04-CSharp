@@ -24,10 +24,13 @@ class Program
         day = Console.ReadLine();
         Console.WriteLine();
 
-        if (day == "Tuesday" || day =="Thursday")  (age > 12 && age < 25)
+        if ((day == "Tuesday" || day == "Thursday" ) || (age > 12 && age < 25))
         {
-          
-        } 
+          Console.WriteLine("You're eligible for a discount");
+        } else 
+        {
+          Console.WriteLine("You aren't eligible.");
+        }
 
         Console.WriteLine("\nDone.");
     }
